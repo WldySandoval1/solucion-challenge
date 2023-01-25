@@ -242,7 +242,7 @@
     }
     
 }
-@media screen and (max-height:667px) and (max-width:430px){ /* Iphone se */
+@media screen and (max-height:850px) and (max-width:430px){ /* Iphone se */
 
     .logo1{
         width: 20px;
