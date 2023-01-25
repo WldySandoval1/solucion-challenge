@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alura challenge</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="fondo">
+
+    <div>
+        <img class="logo1" src="img/Vector.png">
+    </div>
+    <section class=" cajas">
+        <textarea class=" aqui" cols="45" rows="15" id="mensaje" placeholder="Ingrese el texto a codificar"></textarea>
+
+        <div class="caja2">
+            <div id="recarga">
+                <img class="muneco" src="img/Muneco.png" alt="">
+                <h1>
+                    Ningún mensaje fue encontrado
+                </h1>
+                <h3>
+                    Ingresa el texto que desea encriptar o desencriptar
+                </h3>
+            </div>
+            <div>
+                <p class="men-ocul">Mensaje encriptado</p>
+                <textarea readonly="readonly" cols="34" rows="37" class="texto-resuelto"></textarea>
+
+
+            </div>
+        </div>
+
+    </section>
+    
+    <section class="minTex">
+        <img class="minIc" src="img/!admi.png">
+        <p>Solo letras minúsculas y sin acento </p>
+
+    </section>
+
+    <div class="contendor">
+        <button class="boton boton1" id="encriptar" name="codificar"> Encriptar</button>
+        <button class="boton boton2" id="desencriptar" name="decodificar"> Desencriptar </button>
+        <button class="boton boton3" id="copiar" name="copy"> Copiar </button>
+        <button class="boton boton4" id="limpiar" name="clean"> Limpiar </button>
+    </div>
+
+
+    <script src="cod.js"></script>
+
+</body>
+
+</html>
