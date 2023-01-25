@@ -242,7 +242,7 @@
     }
     
 }
-@media screen and (max-height:667px) and (max-width:375px){ /* Iphone se */
+@media screen and (max-height:667px) and (max-width:400px){ /* Iphone se */
 
     .logo1{
         width: 20px;
@@ -250,18 +250,18 @@
     .cajas{
         margin: 2% 5% 0 5%;
         display: inline-block;
-        height: 400px;
+        height: 500px;
         width: auto;    
         
     }
     .aqui{
-        height: 400px;
+        height: 100%;
         width: 310px;
         font-size: 20px;
         margin-left: 2%;
     }
     .caja2{
-        height: 400px;
+        height: 100%;
         width: 310px;
         margin-left: 2%;
 
