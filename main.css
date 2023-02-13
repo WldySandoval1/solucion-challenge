@@ -73,7 +73,6 @@
 .men-ocul {
     font-size: 20px;
     font-family: 'Inter';
-    
 }
 
 .minTex {
@@ -103,6 +102,7 @@
     font-family: 'Inter';
     margin-left: 2px;
     border: none;
+    background-color: #ffffff;
     resize: none;
     outline: none; /* quito el borde cuando le doy click*/
 }
@@ -285,7 +285,5 @@
     .boton2{
         padding: 0 65px 0 5px;
     }
-    .texto-resuelto{
-        height: 410px;
-    }
+    
 }
